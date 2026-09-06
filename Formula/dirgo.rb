@@ -5,20 +5,20 @@ class Dirgo < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/RudySource/Dirgo/releases/download/v0.8.0/dirgo-v0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e70b1223be5b6432e23b4a6483eecf8be30cbb6d23a370f94fa0358c8188ae5c"
+      url "https://github.com/RudySource/Dirgo/releases/download/v0.8.1/dirgo-v0.8.1-aarch64-apple-darwin.tar.gz"
+      sha256 "fe92c4cb91a81844230c226d92f971101659b889a6e9b815e6eedd354c88bf1f"
     end
 
     on_intel do
-      url "https://github.com/RudySource/Dirgo/releases/download/v0.8.0/dirgo-v0.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "950ffbdb28e9200b70a09eff11af255af7def5e6725c4032ce5412dabf6b9e6c"
+      url "https://github.com/RudySource/Dirgo/releases/download/v0.8.1/dirgo-v0.8.1-x86_64-apple-darwin.tar.gz"
+      sha256 "3811698bdef4f4b6ff857cb7969d463fa06033511b489feac05c8852dbc172f5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/RudySource/Dirgo/releases/download/v0.8.0/dirgo-v0.8.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "75cbf6c1657c8a8d5447bba9352d4c301c47f748e78794da7edb2d48ca5ab7a2"
+      url "https://github.com/RudySource/Dirgo/releases/download/v0.8.1/dirgo-v0.8.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8649d818bc252a80f11c5060ddb08a9d5bfb496ef8dde186787be7b84504cfb7"
     end
   end
 
